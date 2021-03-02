@@ -1,8 +1,19 @@
-$darkblue:#32394e;
-$blue: rgb(92, 140, 172);
-$grey:rgb(104, 104, 104);
-$white: rgb(247, 250, 235);
+$blue: #25378b;
+$darkblue:#212247;
+$purple:#4f4c9a;
+$yellow: #f2db53;
+$white: #fff;
 body {
     margin: 0;
     background-color: $darkblue;
+}
+
+header {
+    background-image: url(../img/wallpaper.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 50vh;
+    min-height: 500px;
 }

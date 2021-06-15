@@ -3,10 +3,6 @@ body {
   background-color: #fff;
 }
 
-.yellow_bck {
-  background-color: #f2db53;
-}
-
 header {
   background-image: url(../img/wallpaper.jpg);
   background-size: cover;
@@ -26,5 +22,52 @@ header .container {
 #about_me {
   width: 100%;
   height: 100vh;
+}
+
+#about_me .colors {
+  padding: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#about_me .colors ul {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin: 0;
+  padding: 0;
+  border: 1px solid #212247;
+}
+
+#about_me .colors ul li {
+  padding: 30px;
+  list-style: none;
+}
+
+.blue-back {
+  background-color: #25378b;
+}
+
+.dark-blue-back {
+  background-color: #212247;
+}
+
+.purple-back {
+  background-color: #4f4c9a;
+}
+
+.yellow-back {
+  background-color: #f2db53;
+}
+
+.white-back {
+  background-color: #fff;
 }
 /*# sourceMappingURL=style.css.map */

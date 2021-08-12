@@ -49,10 +49,6 @@ body {
   padding: 60px 30px;
 }
 
-.section {
-  height: 100vh;
-}
-
 .section .colors {
   padding: 30px;
   display: -webkit-box;

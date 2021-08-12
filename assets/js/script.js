@@ -1,6 +1,7 @@
 
 docSlider.init({
-    scrollReset:true,
+    scrollReset: true,
     speed : 1000,
-    easing : 'ease-in-out'
+    easing : 'ease-in-out',
+    pager: false,
 });
